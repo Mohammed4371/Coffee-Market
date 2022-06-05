@@ -1,44 +1,99 @@
 *{
-margin: 0%;
-padding:0%;
-box-sizing: border-box;
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
 }
-
-
-
-
 .Kofi{
     background-color: black;
     color: white;
-    text-transform:uppercase;
     height: 4rem;
-    padding-left: 100px;
-    padding-top: 15px;
-    
-   
-  
- 
-    
-    
-    
+    padding: 10px 10px 10px 20px;
 }
 .Coffee{
-    background-image: url("./hero-bcg.jpg") ;
-    height:calc(100vh - 4rem);
-    background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+color: white;
+background: url(./hero-bcg.jpg);
+height: calc(100vh - 4rem); 
+width: 100vw;
+padding: 20px;
+background-size: cover;
+background-position:center;
+background-image: linear-gradient(brown);
+}
+button{
+    background-color: transparent;
     color: white;
-    padding-left: 100px;
-    padding-top: 50px;
-    
-    
+  border: 1px solid white;
+  padding: 8px 24px 8px 24px;
 }
-.button{
-    transform-origin: 10px;
+@media only screen and (min-width:768px){
+    *{
+        margin: 0%;
+        padding:0%;
+        box-sizing: border-box;
+    }
+    .Kofi{
+        background-color: black;
+        color: white;
+        height: 4rem;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       padding-left: 60px;
+       padding-right: 100px;
+    }
+    .Coffee{
+    color: white;
+    background: url(./hero-bcg.jpg);
+    height: calc(100vh - 4rem); 
+    width: 100vw;
+    padding: 20px;
+    background-size: cover;
+    background-position:center;
+    background-image: linear-gradient(brown);
+    padding-top: 10px;
+       padding-bottom: 10px;
+       padding-left: 60px;
+       padding-right: 100px;
+    }
+    button{
+        background-color: transparent;
+        color: white;
+      border: 1px solid white;
+      padding: 8px 24px 8px 24px;
+    }
 }
-
-    
-
-
+@media only screen and (Min-width:1024px){
+    *{
+        margin: 0%;
+        padding:0%;
+        box-sizing: border-box;
+    }
+    .Kofi{
+        background-color: black;
+        color: white;
+        height: 4rem;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       padding-left: 100px;
+       padding-right: 100px;
+    }
+    .Coffee{
+    color: white;
+    background: url(./hero-bcg.jpg);
+    height: calc(100vh - 4rem); 
+    width: 100vw;
+    padding: 20px;
+    background-size: cover;
+    background-position:center;
+    background-image: linear-gradient(brown);
+    padding-top: 10px;
+       padding-bottom: 10px;
+       padding-left: 100px;
+       padding-right: 100px;
+    }
+    button{
+        background-color: transparent;
+        color: white;
+      border: 1px solid white;
+      padding: 8px 24px 8px 24px;
+    }
+}
